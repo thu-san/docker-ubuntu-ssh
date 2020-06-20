@@ -1,2 +1,5 @@
 # docker-ubuntu-ssh
-Ubuntu ssh server example in docker
+
+SSH server running in Ubuntu example
+
+## Start container

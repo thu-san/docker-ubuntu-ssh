@@ -1,0 +1,17 @@
+version: '3'
+services:
+  ubuntu-ssh:
+    build:
+      context: ./
+      args:
+        SSH_PASS: root
+    image: ubuntu-ssh:latest
+    container_name: ubuntu-ssh
+    stdin_open: true
+    tty: true
+    ports:
+      - '22:22'
+    # privileged: true
+    volumes:
+      - ../../:/home/root/
+    restart: always
