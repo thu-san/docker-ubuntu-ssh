@@ -7,7 +7,7 @@ SSH server running in Ubuntu example
 From command line
 
 ```docker
-docker run --name container_name -d -p 22:22 ubuntu-ssh
+docker run --name container_name -d -p 22:22 thusan/ubuntu-ssh
 ```
 
 To use with docker-compose refer [docker-compose.yml](docker-compose.yml)
